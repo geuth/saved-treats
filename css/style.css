@@ -7,6 +7,33 @@
     height: 100vh;
 }
 #nav{
+    width:100vw;
     background-color: #F294AD;
-
+    position:fixed;
+}
+#logo{
+    height: 200px;
+    width:150px;
+    padding-left:4em;
+    padding-top:3em;
+    margin:0;
+}
+ul li{
+    display: inline-block;
+    padding-bottom:2em;
+}
+#nav li a{
+    text-decoration: none;
+    color:white;
+    padding:2em;
+    font-family: 'Lobster', cursive;
+    font-size: 1.85em;
+}
+#first{
+    padding-left:90em;
+}
+footer{
+    background-color: #F294AD;
+    height: 4em;
+    width: 100vw;
 }
