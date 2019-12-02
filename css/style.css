@@ -61,9 +61,18 @@ img{
     max-width: 1000px;
     position:relative;
     margin: auto;
+    border: 2px solid #F294AD;
+    border-radius:10px;
+    padding:60px;
+    top: 30px;
 }
 .slideshow1{
     display: none;
+    margin-top:60px;
+}
+.arrow{
+    background-color: #F294AD;
+    color: #F294AD;
 }
 .prev, .next{
     cursor: pointer;
@@ -71,7 +80,7 @@ img{
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding:16px;
+    padding:14px;
     color: white;
     font-weight:bold;
     font-size: 18px;
@@ -83,10 +92,15 @@ img{
     height:15px;
     width:15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: white;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+#dots{
+    padding-top: 10px;
+    background-color: #F294AD;
+    padding-bottom:10px;
 }
 .next{
     right:0;
@@ -101,11 +115,12 @@ img{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Lobster', cursive;
-    padding: 8px 12px;
+    padding: 290px 30px;
     position: absolute;
     bottom: 8px;
     width:100%;
     text-align:center;
+    text-shadow: 3px 3px #F294AD;
 }
 .active{
     background-color: #717171;
@@ -115,7 +130,9 @@ img{
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+  
 }
+
 @-webkit-keyframes fade{
     from{opacity:.4}
     to{opacity: 1;}
