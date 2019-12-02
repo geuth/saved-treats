@@ -54,3 +54,20 @@ div#footerMain ul li{
 #firstFooter{
     padding-left:5em;
 }
+
+#slideshowBox{
+    max-width: 1000px;
+    position:relative;
+    margin: auto;
+}
+#slideshow1{
+    display: none;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding:16px;
+}
