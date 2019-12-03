@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saved Treats Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+    <style>
+        #actuality {
+            margin-left: 5vw;
+            color: #F294AD;
+            width: 80vw;
+            height: 40vh;
+            text-align: center;
+            padding-top: 4vh;
+            padding-bottom: 2em;
+        }
+
+        #actuality legend {
+            font-size: 9vh;
+        }
+
+        #actuality fieldset {
+            border-color: #F294AD;
+        }
+
+        #tart1Act {
+            height: 50vh;
+            width: 60vw;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            padding-top: 2vh;
+        }
+
+        #caption1 {
+            text-align: center;
+            background-color: #F294AD;
+            color: white;
+            height: 10vh;
+            width: 60vw;
+            padding-top: 2vh;
+            margin-left: 9.8vw;
+            font-size: 3.5vh;
+        }
+
+        .actuality1 {
+            margin-top: 130vh;
+        }
+
+        .pastryAct2 {
+            width: 10vw;
+            height: 30vh;
+            padding-top: 3vh;
+            padding-left: 25vh;
+        }
+
+        .caption2 {
+            text-align: center;
+            padding-left: 2vh;
+            margin-left: 25vh;
+            font-size: 1vw;
+            display: inline-block;
+            padding-right: 2vh;
+            background-color: #F294AD;
+            color: white;
+            width: 8.1vw;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+        }
+
+        #dessert4 {
+            width: 40vw;
+            height: 40vh;
+            margin-left: 22vh;
+            margin-top: 2vw;
+            margin-bottom: 1vw;
+            margin-right:9vh;
+        }
+
+        #formAction {
+            background-color: #F294AD;
+            color: white;
+           
+        }
+        td#formAction form{
+            width:12vw;
+            height:1vh;
+        }
+        #buttonSubmit{
+            color:white;
+            background-color: #F294AD;
+            height: 2em;
+            width:4em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="nav">
+            <ul>
+                <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
+                <li class="menuLink" id="first"><a href="index.html">Home</a></li>
+                <li class="menuLink"><a href="products.html">Products</a></li>
+                <li class="menuLink"><a href="about.html">About</a></li>
+                <li class="menuLink"><a href="actuality.html">Actuality</a></li>
+                <li class="menuLink"><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div id="actuality">
+
+            <form action="#" id="actuality">
+                <fieldset>
+                    <legend>Actuality</legend>
+                    <img src="/images/Macaron (2).jpg" alt="Tart" id="tart1Act">
+                    <figcaption id="caption1">New Products Coming on 11/12</figcaption>
+                    <table>
+                        <tr>
+                            <td><img src="images/eclair2.jpg" alt="eclair" class="pastryAct2"></td>
+                            <td><img src="images/puffpaastry.jpg" alt="pastryPuff" class="pastryAct2"></td>
+                            <td><img src="images/smallpastries.jpg" alt="smallPastries" class="pastryAct2"> </td>
+                        </tr>
+                    </table>
+                    <table class="table1">
+                        <tr>
+                            <td><span class="caption2">Your Eclair In A New Flavour</span></td>
+                            <td> <span class="caption2"> Festival of Treats Coming</span></td>
+                            <td> <span class="caption2">New Catering Desserts Coming</span></td>
+                        </tr>
+                    </table>
+                    <table class="formSub">
+                        <tr>
+                            <td><img src="images/Dessert.jpg" alt="Dessert" id="dessert4"></td>
+                            <td id="formAction">
+                                <form action="#">
+                                    Join Us With Our Newsletter<br>
+                                    Enter your email adress:<br>
+                                    <input type="text" name="email">
+                                    <br>
+                                    <input type="submit" name="Submit" id="buttonSubmit">
+
+                                </form>
+                            </td>
+                        </tr>
+
+                    </table>
+
+            </form>
+            </table>
+        </div>
+        <div id="footerMain" class="actuality1">
+            <footer>
+                <ul>
+                    <li id="firstFooter">About</li>
+                    <li>|</li>
+                    <li>Products</li>
+                    <li>|</li>
+                    <li>Actuality</li>
+                    <li>|</li>
+                    <li>Contacts</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

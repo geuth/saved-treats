@@ -13,20 +13,45 @@
 
 <body>
     <div id="container">
-
-        <div id="nav">
-            <ul>
-                <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
+        <nav id="nav">
+           
+                <img src="images/logo2.png" alt="logoPic" id="logo"> 
+                <ul>
                 <li class="menuLink" id="first"><a href="#">Home</a></li>
                 <li class="menuLink"><a href="#">Products</a></li>
                 <li class="menuLink"><a href="#">About</a></li>
                 <li class="menuLink"><a href="#">Actuality</a></li>
                 <li class="menuLink"><a href="#">Contacts</a></li>
             </ul>
+        </nav>
+        <div id="slideshowBox" >
+            <div class="slideshow1 fade" >
+                <img src="images/cupcake-2.jpg" alt="cupcake" style="width:100%">
+                <div class="text">Cupcakes</div>
+            </div>
+            <div class=" slideshow1 fade">
+                <img src="images/macaron-2.jpg" alt="macaron" style="width:100%">
+                <div class="text">Macaron</div>
+            </div>
+            <div class="slideshow1 fade">
+                <img src="images/CaramelCake-2.jpg" alt="caramelCake" style="width:100%">
+                <div class="text">Caramel Cake</div>
+            </div>
+            <div class="slideshow1 fade">
+                <img src="images/chocolatEntremet-2.jpg" alt="chocolat" style="width:100%">
+                <div class="text">Chocolat Entremets</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)" class="arrow">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)" class="arrow">&#10095;</a>
+            <div id="dots" style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
         </div>
-        <div id="slideshow1">
-            <h1>Products</h1>
-        </div>
+
         <div id="starProducts">
             <h1>Our Star Products</h1>
         </div>
@@ -50,6 +75,7 @@
             </footer>
         </div>
     </div>
+  
     <script src="js/script.js"></script>
 </body>
 

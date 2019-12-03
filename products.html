@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saved Treats Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+    <style>
+        #products {
+            display: grid;
+            grid-template-areas: 'header header header header header'
+            'item1'
+            'item2'
+            'item3'
+            'item4'
+            'item5';
+            grid-gap:2em;
+            color:#F294AD;
+            font-family: 'Lobster', cursive;
+            width:20vw;
+            height: 20vh;
+            margin-left: 20em;
+            margin-top:2em;
+            margin-bottom:2em;
+            background-color:#F294AD;
+        }
+        #products >div {
+           background-color: white;
+           border-width: 2em;
+        }
+        #header{
+            font-size: 2em;
+            text-align: center;
+            padding-bottom: 3px;
+            padding-left:10em;
+
+        }
+        #listProduct li {
+            font-size: 1.5em;
+            display: block;
+            
+        }
+        .footerProducts{
+            margin-top:30em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="nav">
+            <ul>
+                <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
+                <li class="menuLink" id="first"><a href="index.html">Home</a></li>
+                <li class="menuLink"><a href="products.html">Products</a></li>
+                <li class="menuLink"><a href="about.html">About</a></li>
+                <li class="menuLink"><a href="actuality.html">Actuality</a></li>
+                <li class="menuLink"><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div id="products">
+            <div id="header">Our Products</div>
+            <div id="productsName">
+                <ul id="listProduct">
+                    <li class="items" id="item1"> Macaroons</li>
+                    <li class="items" id="item2">Cakes</li>
+                    <li class="items" id="item3">Pies</li>
+                    <li class="items" id="item4">Salted</li>
+                    <li class="items" id="item5">Entremets</li>
+                </ul>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+        <div id="footerMain" class="footerProducts">
+            <footer>
+                <ul>
+                    <li id="firstFooter">About</li>
+                    <li>|</li>
+                    <li>Products</li>
+                    <li>|</li>
+                    <li>Actuality</li>
+                    <li>|</li>
+                    <li>Contacts</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
