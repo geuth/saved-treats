@@ -9,7 +9,12 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
+h1{
+  font-family: 'Lobster', cursive;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
 /*main page*/
 #nav {
   width: 100vw;
@@ -35,11 +40,11 @@ ul li {
   color: white;
   padding: 1.5em;
   font-family: 'Lobster', cursive;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 #first {
-  padding-left: 19em;
+  padding-left: 85em;
 }
 
 h1 {
@@ -444,6 +449,7 @@ img {
 .arrow {
   background-color: #F294AD;
   color: #F294AD;
+  
 }
 
 .prev,
@@ -460,8 +466,11 @@ img {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-shadow: 2px 2px white;
 }
-
+.next{
+  margin-right:3.4em;
+}
 .dot {
   height: 15px;
   width: 15px;
