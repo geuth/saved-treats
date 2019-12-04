@@ -13,7 +13,7 @@
 
 <body>
     <div id="container">
-  
+
         <nav id="nav">
             <ul>
                 <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
@@ -24,8 +24,8 @@
                 <li class="menuLink"><a href="contacts.html">Contacts</a></li>
             </ul>
         </nav>
-        <div id="slideshowBox" >
-            <div class="slideshow1 fade" >
+        <div id="slideshowBox">
+            <div class="slideshow1 fade">
                 <img src="images/cupcake-2.jpg" alt="cupcake" style="width:100%">
                 <div class="text">Cupcakes</div>
             </div>
@@ -42,7 +42,7 @@
                 <div class="text">Chocolat Entremets</div>
             </div>
 
-            <a class="prev" onclick="plusSlides(-1)" class="arrow">&#10094;</a>
+            <a class="prev" onclick="minusSlides(-1)" class="arrow">&#10094;</a>
             <a class="next" onclick="plusSlides(1)" class="arrow">&#10095;</a>
             <div id="dots" style="text-align:center">
                 <span class="dot"></span>
@@ -60,6 +60,13 @@
         </div>
         <div id="locations">
             <h1>Our Locations</h1>
+            <div class="picloc">
+                <img src="/images/pastriesfront.jpg" alt="pastriesFront1" class="locationpic">
+                <img src="/images/pastriesfront2.jpg" alt="pastriesFront2" class="locationpic">
+                <br>
+                <p class="addressShop" id="whiteBear">1196 White Bear Lake,<br> MN 55930 </p>
+                <p class="addressShop" id="univAve">963 University Ave, <br> MN 56980</p>
+            </div>
         </div>
         <div id="footerMain">
             <footer>
@@ -75,7 +82,7 @@
             </footer>
         </div>
     </div>
-  
+
     <script src="js/script.js"></script>
 </body>
 

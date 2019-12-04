@@ -53,6 +53,34 @@ div#footerMain ul li{
   padding-top: 2em;
 
 }
+#locations{
+  text-align: center;
+  padding-bottom:9em;
+  
+}
+.picloc{
+  border: 2px solid #F294AD;
+  border-radius:12px;
+}
+.locationpic{
+  width:40vw;
+  height: 40vh;
+  padding:2em;
+  text-align: center;
+}
+.addressShop{
+  display: inline-block;
+  padding-right:6em;
+  padding-left:6em;
+  font-family: 'Lobster', cursive;
+  font-size:2em;
+}
+#whiteBear{
+  padding-right: 22em;
+}
+#univAve{
+  padding-left:8em;
+}
 #firstFooter{
   padding-left:5em;
 }
