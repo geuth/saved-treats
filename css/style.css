@@ -54,7 +54,39 @@ h1 {
   padding-bottom: 2em;
 
 }
+/*Star Product for main*/
+.productPics{
+  width:9vw;
+  height:26vh;
+  align-content: center;
+  padding:2em;
+  padding-bottom: 6px;
 
+}
+.starProductPic{
+  margin-left:26em;
+  font-family: 'Roboto', sans-serif;
+  border: 9px double #F294AD;
+  border-radius: 12px;
+  width:70vw;
+  padding:2em;
+
+}
+.coffeCakePic{
+  margin-left: 10em;
+}
+.buttonDetails{
+  width:8em;
+  height: 2em;
+  background-color: #F294AD;
+  color:white;
+  margin-left:15em;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.followingButton{
+  margin-left:11.5em;
+}
 /*footer for main*/
 footer {
   background-color: #F294AD;
@@ -68,6 +100,7 @@ div#footerMain ul li {
   font-size: 1.85em;
   color: white;
   padding-top: 2em;
+  
 
 }
 
