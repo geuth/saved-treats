@@ -75,20 +75,30 @@ div#footerMain ul li {
   border-radius: 12px;
 }
 
-#preppic {
-  width: 3vw;
-  height: 9vh;
-}
 
+#worldStory{
+  color: #F294AD;
+  padding-left:20em;
+  padding-top:20em;
+}
 .ourworld {
   padding: 2em;
   display: inline-block;
   color: #F294AD;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  text-align-last: center
+  text-align-last: center;
 }
-
+#textWorld{
+  padding-top:5em;
+}
+#preppic {
+  width: 9vw;
+  height: 25vh;
+  padding-left: 18em;
+  text-align: center;
+  padding-top:0;
+}
 /*Location*/
 #locations {
   padding-bottom: 9em;
@@ -119,6 +129,7 @@ div#footerMain ul li {
   font-family: 'Lobster', cursive;
   font-size: 1.7em;
   padding-bottom: 2em;
+  color:#F294AD;
 }
 
 #whiteBear {
