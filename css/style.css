@@ -67,12 +67,12 @@ div#footerMain ul li {
 }
 
 /*About us part*/
-#aboutWorld {
-  
-}
 
 .aboutUs {
   border: 9px double #F294AD;
+  width:70vw;
+  margin-left: 26em;
+  border-radius: 12px;
 }
 
 #preppic {
@@ -91,7 +91,6 @@ div#footerMain ul li {
 
 /*Location*/
 #locations {
-
   padding-bottom: 9em;
   width: 70vw;
   margin-left: 26em;
