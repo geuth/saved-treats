@@ -30,3 +30,15 @@ function showSlides() {
 function buttonPopUp(){
     alert("Coffee Cake")
 }
+function buttonPopUp1(){
+    alert("Croissant")
+}
+function buttonPopUp2(){
+    alert("Chocolat Entremet")
+}
+function buttonPopUp3(){
+    alert("Cupcake")
+}
+function buttonPopUp4(){
+    alert("Tart")
+}
