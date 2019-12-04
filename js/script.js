@@ -27,3 +27,6 @@ function showSlides() {
     setTimeout(showSlides, 10000);
 }
 
+function buttonPopUp(){
+    alert("Coffee Cake")
+}
