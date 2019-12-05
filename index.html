@@ -55,18 +55,84 @@
         <div id="starProducts">
             <h1>Our Star Products</h1>
             <div class="starProductPic">
-                <!--https://html-online.com/articles/simple-popup-box/-->
                 <img src="images/coffeecake.jpg" alt="coffeeCake" class="productPics coffeCakePic" id="mainStar">
                 <img src="images/croissant.jpg" alt="croissant" class="productPics">
                 <img src="images/chocolatEntremet.jpg" alt="chocoEntremets" class="productPics">
                 <img src="images/cupcake3.jpg" alt="cupcakeVarieties" class="productPics">
                 <img src="images/tart.jpg" alt="tart" class="productPics">
                 <br>
-                <button type="button" class="buttonDetails" onclick="buttonPopUp()">Details</button>
-                <button type="button" class="buttonDetails followingButton" onclick="buttonPopUp1()">Details</button>
-                <button type="button" class="buttonDetails followingButton" onclick="buttonPopUp2()">Details</button>
-                <button type="button" class="buttonDetails followingButton" onclick="buttonPopUp3()">Details</button>
-                <button type="button" class="buttonDetails followingButton" onclick="buttonPopUp4()">Details</button>
+                <button type="button" class="buttonDetails"
+                    onclick="document.getElementById('itemwrapper').style.display='block'"
+                    style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+
+                <button type="button" class="buttonDetails followingButton"
+                    onclick="document.getElementById('itemwrapper1').style.display='block'"
+                    style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+
+                <button type="button" class="buttonDetails followingButton" onclick="document.getElementById('itemwrapper2').style.display='block'"
+                style="width:200px; margin-top:2px; margin-left:160px;">Details</button>
+
+                <button type="button" class="buttonDetails followingButton" onclick="document.getElementById('itemwrapper3').style.display='block'"
+                style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+
+                <button type="button" class="buttonDetails followingButton" onclick="document.getElementById('itemwrapper4').style.display='block'"
+                style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+                
+                <div id="itemwrapper" class="boxButton">
+                    <form action="#" class="boxContent animate">
+                        <div class="imgContain">
+                            <span onclick="document.getElementById('itemwrapper').style.display='none'" class="close"
+                                title="CloseBox">&times;</span>
+                            <img src="images/coffeecake.jpg" alt="coffeCake" class="cakecoffee">
+                            <h1>Coffee Cake</h1>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div id="itemwrapper1" class="boxButton">
+                    <form action="#" class="boxContent animate">
+                        <div class="imgContain">
+                            <span onclick="document.getElementById('itemwrapper1').style.display='none'" class="close"
+                                title="CloseBox">&times;</span>
+                            <img src="images/croissant.jpg" alt="croissant" class="cakecoffee">
+                            <h1>Croissant</h1>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="itemwrapper2" class="boxButton">
+                    <form action="#" class="boxContent animate">
+                        <div class="imgContain">
+                            <span onclick="document.getElementById('itemwrapper2').style.display='none'" class="close"
+                                title="CloseBox">&times;</span>
+                            <img src="images/chocolateEntremet.jpg" alt="chocoEntremet" class="cakecoffee">
+                            <h1>Chocolat Entremet</h1>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="itemwrapper3" class="boxButton">
+                    <form action="#" class="boxContent animate">
+                        <div class="imgContain">
+                            <span onclick="document.getElementById('itemwrapper3').style.display='none'" class="close"
+                                title="CloseBox">&times;</span>
+                            <img src="images/cupcake3.jpg" alt="coffeCake" class="cakecoffee">
+                            <h1>Chocolat Entremet</h1>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="itemwrapper4" class="boxButton">
+                    <form action="#" class="boxContent animate">
+                        <div class="imgContain">
+                            <span onclick="document.getElementById('itemwrapper4').style.display='none'" class="close"
+                                title="CloseBox">&times;</span>
+                            <img src="images/tart.jpg" alt="coffeCake" class="cakecoffee">
+                            <h1>Chocolat Entremet</h1>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
         <div id="aboutWorld">

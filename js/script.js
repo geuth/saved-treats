@@ -27,18 +27,39 @@ function showSlides() {
     setTimeout(showSlides, 10000);
 }
 
-function buttonPopUp(){
-    alert("Coffee Cake")
+
+var modal = document.getElementById('itemwrapper');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
 }
-function buttonPopUp1(){
-    alert("Croissant")
 }
-function buttonPopUp2(){
-    alert("Chocolat Entremet")
+
+var modal = document.getElementById('itemwrapper1');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
 }
-function buttonPopUp3(){
-    alert("Cupcake")
 }
-function buttonPopUp4(){
-    alert("Tart")
+
+
+var modal = document.getElementById('itemwrapper2');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+var modal = document.getElementById('itemwrapper3');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+var modal = document.getElementById('itemwrapper4');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
 }
