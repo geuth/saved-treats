@@ -4,6 +4,9 @@ showSlides(slideIndex);
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
+function minusSlides(n) {
+    showSlides(slideIndex -= n);
+}
 
 function showSlides() {
     var i;
@@ -24,3 +27,18 @@ function showSlides() {
     setTimeout(showSlides, 10000);
 }
 
+function buttonPopUp(){
+    alert("Coffee Cake")
+}
+function buttonPopUp1(){
+    alert("Croissant")
+}
+function buttonPopUp2(){
+    alert("Chocolat Entremet")
+}
+function buttonPopUp3(){
+    alert("Cupcake")
+}
+function buttonPopUp4(){
+    alert("Tart")
+}
