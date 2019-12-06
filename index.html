@@ -63,21 +63,24 @@
                 <br>
                 <button type="button" class="buttonDetails"
                     onclick="document.getElementById('itemwrapper').style.display='block'"
-                    style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+                    style="width:200px;height:70px;  margin-top:2px; margin-left:150px;">Details</button>
 
                 <button type="button" class="buttonDetails followingButton"
                     onclick="document.getElementById('itemwrapper1').style.display='block'"
-                    style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+                    style="width:200px;height:70px;  margin-top:2px; margin-left:240px;">Details</button>
 
-                <button type="button" class="buttonDetails followingButton" onclick="document.getElementById('itemwrapper2').style.display='block'"
-                style="width:200px; margin-top:2px; margin-left:160px;">Details</button>
+                <button type="button" class="buttonDetails followingButton"
+                    onclick="document.getElementById('itemwrapper2').style.display='block'"
+                    style="width:200px;height:70px;  margin-top:2px; margin-left:240px;">Details</button>
 
-                <button type="button" class="buttonDetails followingButton" onclick="document.getElementById('itemwrapper3').style.display='block'"
-                style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
+                <button type="button" class="buttonDetails followingButton"
+                    onclick="document.getElementById('itemwrapper3').style.display='block'"
+                    style="width:200px; height:70px; margin-top:2px; margin-left:250px;">Details</button>
 
-                <button type="button" class="buttonDetails followingButton" onclick="document.getElementById('itemwrapper4').style.display='block'"
-                style="width:200px; margin-top:2px; margin-left:120px;">Details</button>
-                
+                <button type="button" class="buttonDetails followingButton"
+                    onclick="document.getElementById('itemwrapper4').style.display='block'"
+                    style="width:200px;height:70px; margin-top:2px; margin-left:230px;;">Details</button>
+
                 <div id="itemwrapper" class="boxButton">
                     <form action="#" class="boxContent animate">
                         <div class="imgContain">
@@ -85,10 +88,14 @@
                                 title="CloseBox">&times;</span>
                             <img src="images/coffeecake.jpg" alt="coffeCake" class="cakecoffee">
                             <h1>Coffee Cake</h1>
+                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
+                                savour.
+                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
+                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
+                                Calories:290</p>
                         </div>
                     </form>
                 </div>
-
 
                 <div id="itemwrapper1" class="boxButton">
                     <form action="#" class="boxContent animate">
@@ -96,7 +103,12 @@
                             <span onclick="document.getElementById('itemwrapper1').style.display='none'" class="close"
                                 title="CloseBox">&times;</span>
                             <img src="images/croissant.jpg" alt="croissant" class="cakecoffee">
-                            <h1>Croissant</h1>
+                            <h1 class="ingredients">Croissant</h1>
+                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
+                                savour.
+                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
+                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
+                                Calories:290</p>
                         </div>
                     </form>
                 </div>
@@ -107,7 +119,12 @@
                             <span onclick="document.getElementById('itemwrapper2').style.display='none'" class="close"
                                 title="CloseBox">&times;</span>
                             <img src="images/chocolateEntremet.jpg" alt="chocoEntremet" class="cakecoffee">
-                            <h1>Chocolat Entremet</h1>
+                            <h1 class="ingredients">Chocolat Entremet</h1>
+                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
+                                savour.
+                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
+                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
+                                Calories:290</p>
                         </div>
                     </form>
                 </div>
@@ -118,7 +135,12 @@
                             <span onclick="document.getElementById('itemwrapper3').style.display='none'" class="close"
                                 title="CloseBox">&times;</span>
                             <img src="images/cupcake3.jpg" alt="coffeCake" class="cakecoffee">
-                            <h1>Chocolat Entremet</h1>
+                            <h1>Cupcake</h1>
+                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
+                                savour.
+                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
+                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
+                                Calories:290</p>
                         </div>
                     </form>
                 </div>
@@ -129,7 +151,12 @@
                             <span onclick="document.getElementById('itemwrapper4').style.display='none'" class="close"
                                 title="CloseBox">&times;</span>
                             <img src="images/tart.jpg" alt="coffeCake" class="cakecoffee">
-                            <h1>Chocolat Entremet</h1>
+                            <h1>Tart</h1>
+                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
+                                savour.
+                                <br>Layers of deliciousness,<br> with a buttery taste that makes you crave for more.
+                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
+                                Calories:290</p>
                         </div>
                     </form>
                 </div>
@@ -160,13 +187,13 @@
         <div id="footerMain">
             <footer>
                 <ul>
-                    <li id="firstFooter">About</li>
+                    <li id="firstFooter"><a href="about.html">About</a></li>
                     <li>|</li>
-                    <li>Products</li>
+                    <li><a href="products.html">Products</a></li>
                     <li>|</li>
-                    <li>Actuality</li>
+                    <li><a href="actuality.html">Actuality</a></li>
                     <li>|</li>
-                    <li>Contacts</li>
+                    <li><a href="contacts.html">Contacts</a></li>
                 </ul>
             </footer>
         </div>

@@ -64,12 +64,15 @@ h1 {
 
 }
 .starProductPic{
-  margin-left:26em;
+  margin-left:30em;
   font-family: 'Roboto', sans-serif;
   border: 9px double #F294AD;
   border-radius: 12px;
   width:70vw;
   padding:2em;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 
 }
 .coffeCakePic{
@@ -82,10 +85,19 @@ h1 {
   color:white;
   margin-left:15em;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 20px;
 }
 .followingButton{
   margin-left:11.5em;
+}
+
+div.imgContain h1{
+  padding-bottom:3px;
+  padding-top:20px;
+  font-size:50px;
+}
+div.imgContain p{
+  font-size:37px;
 }
 /*popup button*/
 
@@ -93,13 +105,19 @@ h1 {
   text-align: center;
   margin:40px 0 12 px 0;
   position:relative;
-
+  
+}
+.ingredients{
+  font-size: 2em;
+  padding-top:4px;
+  margin-top:0;
+  color:#F294AD;
 }
 .cakecoffee{
   margin-top:20px;
-  width:200px;
-  height:200px;
-  border-radius: 50%;
+  width:400px;
+  height:400px;
+  border-radius: 10%;
 }
 .boxButton{
   display:none;
@@ -117,7 +135,8 @@ h1 {
   background-color: #fefefe;
   margin: 4% auto 15% auto;
   border: 1px solid #888;
-  width: 40%;
+  width: 30%;
+  height:70%;
   padding-bottom: 30px;
   }
   
@@ -149,16 +168,21 @@ footer {
   background-color: #F294AD;
   height: 10em;
   width: 100vw;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
-
-div#footerMain ul li {
-  padding: 0.2em;
+div#footerMain ul{
+  color: white;
+  padding-top:4em;
+}
+div#footerMain ul li a{
   font-family: 'Lobster', cursive;
-  font-size: 1.85em;
+  padding: 0.2em;
   color: white;
   padding-top: 2em;
-  
-
+  text-decoration: none;
+  font-size: 1.85em;
 }
 
 /*About us part*/
@@ -169,7 +193,11 @@ div#footerMain ul li {
   margin-left: 26em;
   border-radius: 12px;
 }
-
+.aboutUs h1{
+  text-align: center;
+  align-items: center;
+  
+}
 
 #worldStory{
   color: #F294AD;
@@ -194,6 +222,7 @@ div#footerMain ul li {
   text-align: center;
   padding-top:0;
 }
+
 /*Location*/
 #locations {
   padding-bottom: 9em;
