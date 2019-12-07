@@ -471,42 +471,28 @@ filter: grayscale(100%);
 .productPics1 {
   width: 9vw;
   height: 26vh;
-  align-content: center;
   padding: 2em;
   padding-bottom: 6px;
 
 }
 
 .starProductPic1 {
-  margin-left: 20em;
   font-family: 'Roboto', sans-serif;
-  border: 9px double #F294AD;
   border-radius: 12px;
   width: 70vw;
   padding: 2em;
-  text-align: center;
-  align-content: center;
-  align-items: center;
 
-}
-
-.coffeCakePic1 {
-  margin-left: 10em;
 }
 
 .buttonDetails1 {
   width: 8em;
   height: 2em;
   background-color: #F294AD;
-  color: white;
-  margin-left: 15em;
+  color: rgb(85, 54, 54);
   border-radius: 6px;
   font-size: 20px;
 }
 
-.followingButton1 {
-  margin-left: 11.5em;
-}
 
 div.imgContain1 h1 {
   padding-bottom: 3px;
