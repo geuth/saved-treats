@@ -473,14 +473,24 @@ filter: grayscale(100%);
   height: 26vh;
   padding: 2em;
   padding-bottom: 6px;
+  margin-left:3em;
 
 }
-
+#productCategory{
+  text-align: center;
+  list-style: none;
+}
+#productCategory ul{
+  display: inline-block;
+  color: #F294AD;
+  margin:2em;
+  font-size: 20px;
+  
+}
 .starProductPic1 {
   font-family: 'Roboto', sans-serif;
   border-radius: 12px;
-  width: 70vw;
-  padding: 2em;
+  width: 100vw;
 
 }
 
@@ -488,7 +498,7 @@ filter: grayscale(100%);
   width: 8em;
   height: 2em;
   background-color: #F294AD;
-  color: rgb(85, 54, 54);
+  color: rgb(255, 255, 255);
   border-radius: 6px;
   font-size: 20px;
 }
@@ -543,8 +553,8 @@ div.imgContain1 p {
   background-color: #fefefe;
   margin: 4% auto 15% auto;
   border: 1px solid #888;
-  width: 30%;
-  height: 70%;
+  width: 60%;
+  height: 80%;
   padding-bottom: 30px;
 }
 
