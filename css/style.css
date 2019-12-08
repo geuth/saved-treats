@@ -493,7 +493,9 @@ filter: grayscale(100%);
   width: 100vw;
 
 }
-
+#starProducts1 h1{
+  padding-bottom:0.5em;
+}
 .buttonDetails1 {
   width: 8em;
   height: 2em;
@@ -501,6 +503,10 @@ filter: grayscale(100%);
   color: rgb(255, 255, 255);
   border-radius: 6px;
   font-size: 20px;
+}
+li.productCategory{
+  padding-top: 0.5em;
+
 }
 
 
@@ -513,7 +519,9 @@ div.imgContain1 h1 {
 div.imgContain1 p {
   font-size: 37px;
 }
-
+.coffeCakePic1 {
+  margin-left: 8em;
+}
 /*popup button*/
 
 .imgContain1 {
