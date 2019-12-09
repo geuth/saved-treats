@@ -77,3 +77,4 @@ if (event.target == modal) {
 modal.style.display = "none";
 }
 }
+
