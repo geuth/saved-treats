@@ -27,52 +27,72 @@
         </nav>
         <div id="starProducts1">
             <h1>Our Products</h1>
-            <li id="productCategory">
-                <ul>All</ul>
-                <ul id="pastriesButon" onclick="function2()">Pastries</ul>
-                <ul>Macaroons</ul>
-                <ul>Cakes</ul>
-                <ul>Pies</ul>
-                <ul>Salted</ul>
-                <ul>Entremets</ul>
-            </li>
+            <div class="list2">
+                    <button class="catlinks">All</button>
+                    <button class="catlinks" onmouseover="openProduct(event, 'pastries')">Pastries</button>
+                    <button class="catlinks" onmouseover="openProduct(event, 'macaroons')">Macaroons</button>
+                    <button class="catlinks" onmouseover="openProduct(event, 'cakes')">Cakes</button>
+                    <button class="catlinks" onmouseover="openProduct(event, 'pies')">Pies</button>
+                    <button class="catlinks" onmouseover="openProduct(event, 'salted')">Salted</button></ul>
+                    <ul><button class="catlinks" onmouseover="openProduct(event, 'entremet')">Entremets</button>
+                </li>
+            </div>
+<div class="clearfix"></div>
+
+
             <!--Picture-->
             <div class="starProductPic1">
-                <img src="images/coffeecake.jpg" alt="coffeeCake" class="productPics coffeCakePic1 cake" id="mainStar">
-                <img src="images/croissant.jpg" alt="croissant" class="productPics pastries">
-                <img src="images/chocolatEntremet.jpg" alt="chocoEntremets" class="productPics entremets">
-                <img src="images/cupcake3.jpg" alt="cupcakeVarieties" class="productPics cupcakes">
-                <img src="images/tart.jpg" alt="tart" class="productPics tart">
-                <img src="images/carrotCake.jpg" alt="carrotCake" class="productPics cake">
-                <img src="images/donuts.jpg" alt="carrotCake" class="productPics cake">
+                <div class ="productitems" id="pastries">
+                    <img src="images/croissant.jpg" alt="croissant" class="productPics">
+                    <img src="images/cupcake3.jpg" alt="cupcakeVarieties" class="productPics">
+                </div>
+
+                <div class ="productitems" id="cakes">
+                    <img src="images/carrotCake.jpg" alt="carrotCake" class="productPics">
+                    <img src="images/donuts.jpg" alt="donuts" class="productPics">
+                    <img src="images/coffeecake.jpg" alt="coffeeCake" class="productPics coffeCakePic1" id="mainStar">
+                </div>
+
+                <div class ="productitems" id="entremet">
+                    <img src="images/chocolatEntremet.jpg" alt="chocoEntremets" class="productPics">
+                </div>
+
+                <div class ="productitems" id="pies">
+                    <img src="images/tart.jpg" alt="tart" class="productPics">
+                </div>
+
+                <div class ="productitems" id="macaroons">
+                    <img src="/images/Macaron2.jpg" alt="macarons" class="productPics">
+                </div>
+
 
                 <br>
                 <!--button-->
-                <button type="button" class="buttonDetails1"
+                <button type="button" class="buttonDetails1 productitems"
                     onclick="document.getElementById('itemwrapper').style.display='block'"
                     style="width:100px;height:50px;  margin-top:2px; margin-left:220px;">Details</button>
 
-                <button type="button" class="buttonDetails1 followingButton1"
+                <button type="button" class="buttonDetails1 followingButton1 productitems"
                     onclick="document.getElementById('itemwrapper1').style.display='block'"
                     style="width:100px;height:50px;  margin-top:2px; margin-left:210px;">Details</button>
 
-                <button type="button" class="buttonDetails1 followingButton1"
+                <button type="button" class="buttonDetails1 followingButton1 productitems"
                     onclick="document.getElementById('itemwrapper2').style.display='block'"
                     style="width:100px;height:50px;  margin-top:2px; margin-left:200px;">Details</button>
 
-                <button type="button" class="buttonDetails1 followingButton1"
+                <button type="button" class="buttonDetails1 followingButton1 productitems"
                     onclick="document.getElementById('itemwrapper3').style.display='block'"
                     style="width:100px; height:50px; margin-top:2px; margin-left:200px;">Details</button>
 
-                <button type="button" class="buttonDetails1 followingButton1"
+                <button type="button" class="buttonDetails1 followingButton1 productitems"
                     onclick="document.getElementById('itemwrapper4').style.display='block'"
                     style="width:100px;height:50px; margin-top:2px; margin-left:220px;;">Details</button>
 
-                <button type="button" class="buttonDetails1 followingButton1"
+                <button type="button" class="buttonDetails1 followingButton1 productitems"
                     onclick="document.getElementById('itemwrapper5').style.display='block'"
                     style="width:100px;height:50px; margin-top:2px; margin-left:220px;;">Details</button>
 
-                    <button type="button" class="buttonDetails1 followingButton1"
+                <button type="button" class="buttonDetails1 followingButton1 productitems"
                     onclick="document.getElementById('itemwrapper6').style.display='block'"
                     style="width:100px;height:50px; margin-top:2px; margin-left:220px;;">Details</button>
 

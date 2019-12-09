@@ -78,3 +78,16 @@ modal.style.display = "none";
 }
 }
 
+function openProduct(event, productsName) {
+    var i, productsitems, catlinks;
+    productsitems= content.getElementsByClassName("productsitems");
+    for(i=0; i<productsitems.length; i++){
+        productsitems[i].style.display="none";
+    }
+    catlinks= document.getElementsByClassName("catlinks");
+    for (i=0; i<catlinks;i++){
+        catlinks[i].className=catlinks[i].className.replace(" active", "");
+    }
+    document.getElementById(productsName).style.display="block";
+    EventTarget.currentTarget.className +="active";
+}
