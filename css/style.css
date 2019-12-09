@@ -475,10 +475,11 @@ filter: grayscale(100%);
 /*products page css*/
 .list2{
   float:left;
-  border:1px solid #ccc;
+  border:3px solid #F294AD;
   background-color: white;
-  width:30%;
+  width:20%;
   height:300px;
+  margin-left:3em;
 }
 .list2 button{
   display:block;
@@ -508,6 +509,10 @@ filter: grayscale(100%);
   clear:both;
   display:table;
 }
+
+
+
+
 .productPics1 {
   width: 9vw;
   height: 26vh;

@@ -78,9 +78,9 @@ modal.style.display = "none";
 }
 }
 
-function openProduct(event, productsName) {
+function openProduct(evt, productsName) {
     var i, productsitems, catlinks;
-    productsitems= content.getElementsByClassName("productsitems");
+    productsitems= documents.getElementsByClassName("productsitems");
     for(i=0; i<productsitems.length; i++){
         productsitems[i].style.display="none";
     }
@@ -89,5 +89,5 @@ function openProduct(event, productsName) {
         catlinks[i].className=catlinks[i].className.replace(" active", "");
     }
     document.getElementById(productsName).style.display="block";
-    EventTarget.currentTarget.className +="active";
+    evt.currentTarget.className +="active";
 }
