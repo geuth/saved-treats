@@ -28,99 +28,28 @@
         <div id="starProducts1">
             <h1>Our Products</h1>
             <div class="list2">
-                    <button class="catlinks" onmouseover="openProduct(event, 'pastries')">Pastries</button>
-                    <button class="catlinks" onmouseover="openProduct(event, 'macaroons')">Macaroons</button>
-                    <button class="catlinks" onmouseover="openProduct(event, 'cakes')">Cakes</button>
-                    <button class="catlinks" onmouseover="openProduct(event, 'pies')">Pies</button>
-                    <button class="catlinks" onmouseover="openProduct(event, 'salted')">Salted</button></ul>
-                    <ul><button class="catlinks" onmouseover="openProduct(event, 'entremet')">Entremets</button>
-                </li>
+                <button class="itemslinks" onmouseover="openProduct(event, 'Pastries')">Pastries</button>
+                <button class="itemslinks" onmouseover="openProduct(event, 'Tart')">Tart</button>
+                <button class="itemslinks" onmouseover="openProduct(event, 'Cakes')">Cake</button>
+                <button class="itemslinks" onmouseover="openProduct(event, 'Macaroons')">Macaroons</button>
+                <button class="itemslinks" onmouseover="openProduct(event, 'Salted')">Salted</button>
+
             </div>
 
-
-
-            <!--Picture-->
-            <div class="starProductPic1">
-                <div class ="productitems" id="pastries">
-                    <img src="images/croissant.jpg" alt="croissant" class="productPics">
-                    <img src="images/cupcake3.jpg" alt="cupcakeVarieties" class="productPics">
-                </div>
-
-                <div class ="productitems" id="cakes">
-                    <img src="images/carrotCake.jpg" alt="carrotCake" class="productPics">
-                    <img src="images/donuts.jpg" alt="donuts" class="productPics">
-                    <img src="images/coffeecake.jpg" alt="coffeeCake" class="productPics coffeCakePic1" id="mainStar">
-                </div>
-
-                <div class ="productitems" id="entremet">
-                    <img src="images/chocolatEntremet.jpg" alt="chocoEntremets" class="productPics">
-                </div>
-
-                <div class ="productitems" id="pies">
-                    <img src="images/tart.jpg" alt="tart" class="productPics">
-                </div>
-
-                <div class ="productitems" id="macaroons">
-                    <img src="/images/Macaron2.jpg" alt="macarons" class="productPics">
-                </div>
-
-
-                <br>
-                <!--button-->
-                <button type="button" class="buttonDetails1 productitems"
-                    onclick="document.getElementById('itemwrapper').style.display='block'"
-                    style="width:100px;height:50px;  margin-top:2px; margin-left:220px;">Details</button>
-
-                <button type="button" class="buttonDetails1 followingButton1 productitems"
+            <div id="Pastries" class="prodcontent">
+                <img src="images/croissant.jpg" alt="croissant" class="productPics" >
+<br>
+                <button type="button" class="buttonDetails"
                     onclick="document.getElementById('itemwrapper1').style.display='block'"
-                    style="width:100px;height:50px;  margin-top:2px; margin-left:210px;">Details</button>
-
-                <button type="button" class="buttonDetails1 followingButton1 productitems"
-                    onclick="document.getElementById('itemwrapper2').style.display='block'"
-                    style="width:100px;height:50px;  margin-top:2px; margin-left:200px;">Details</button>
-
-                <button type="button" class="buttonDetails1 followingButton1 productitems"
-                    onclick="document.getElementById('itemwrapper3').style.display='block'"
-                    style="width:100px; height:50px; margin-top:2px; margin-left:200px;">Details</button>
-
-                <button type="button" class="buttonDetails1 followingButton1 productitems"
-                    onclick="document.getElementById('itemwrapper4').style.display='block'"
-                    style="width:100px;height:50px; margin-top:2px; margin-left:220px;;">Details</button>
-
-                <button type="button" class="buttonDetails1 followingButton1 productitems"
-                    onclick="document.getElementById('itemwrapper5').style.display='block'"
-                    style="width:100px;height:50px; margin-top:2px; margin-left:220px;;">Details</button>
-
-                <button type="button" class="buttonDetails1 followingButton1 productitems"
-                    onclick="document.getElementById('itemwrapper6').style.display='block'"
-                    style="width:100px;height:50px; margin-top:2px; margin-left:220px;;">Details</button>
-
-
-
-
-                <!--Description product-->
-                <div id="itemwrapper" class="boxButton">
-                    <form action="#" class="boxContent1 animate">
-                        <div class="imgContain1">
-                            <span onclick="document.getElementById('itemwrapper').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/coffeecake.jpg" alt="coffeCake" class="cakecoffee1">
-                            <h1>Coffee Cake</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-
-                <div id="itemwrapper1" class="boxButton1">
-                    <form action="#" class="boxContent1 animate">
+                    style="width:100px;height:60px;  margin-top:15px; margin-left:85px;">Details</button>
+                <div id="itemwrapper1" class="boxButton">
+                    <form action="#" class="boxContent animate">
                         <div class="imgContain">
+                           
                             <span onclick="document.getElementById('itemwrapper1').style.display='none'" class="close"
                                 title="CloseBox">&times;</span>
-                            <img src="images/croissant.jpg" alt="croissant" class="cakecoffee1">
+
+                            <img src="images/croissant.jpg" alt="croissant" class="cakecoffee">
                             <h1 class="ingredients">Croissant</h1>
                             <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
                                 savour.
@@ -131,102 +60,64 @@
                     </form>
                 </div>
 
-                <div id="itemwrapper2" class="boxButton1">
-                    <form action="#" class="boxContent1 animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper2').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/chocolateEntremet.jpg" alt="chocoEntremet" class="cakecoffee">
-                            <h1 class="ingredients">Chocolat Entremet</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
 
-                <div id="itemwrapper3" class="boxButton1">
-                    <form action="#" class="boxContent1 animate">
-                        <div class="imgContain1">
-                            <span onclick="document.getElementById('itemwrapper3').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/cupcake3.jpg" alt="cupcake" class="cakecoffee1">
-                            <h1>Cupcake</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
 
-                <div id="itemwrapper4" class="boxButton1">
-                    <form action="#" class="boxContent1 animate">
-                        <div class="imgContain1">
-                            <span onclick="document.getElementById('itemwrapper4').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/tart.jpg" alt="tart" class="cakecoffee1">
-                            <h1>Tart</h1>
-                            <p class="ingredients1"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness,<br> with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
 
-                <div id="itemwrapper5" class="boxButton1">
-                    <form action="#" class="boxContent1 animate">
-                        <div class="imgContain1">
-                            <span onclick="document.getElementById('itemwrapper5').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/carrotCake.jpg" alt="coffeCake" class="cakecoffee1">
-                            <h1>Tart</h1>
-                            <p class="ingredients1"> Description: A carrot cake
-                                <br>Layers of deliciousness,<br> that's soft and moist.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk, carrot <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
 
-                <div id="itemwrapper6" class="boxButton1">
-                    <form action="#" class="boxContent1 animate">
-                        <div class="imgContain1">
-                            <span onclick="document.getElementById('itemwrapper6').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/donuts.jpg" alt="donuts" class="cakecoffee1">
-                            <h1>Tart</h1>
-                            <p class="ingredients1"> Description: Donuts
-                                <br>Layers of deliciousness,<br> that's soft and moist.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk, carrot <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
 
             </div>
+
+            <div id="Tart" class="prodcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p>
+            </div>
+
+            <div id="Cakes" class="prodcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+            <div id="Macaroons" class="prodcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+            <div id="Salted" class="prodcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+            <div class="clearfix"></div>
+
         </div>
-        <div class="clearfix"></div>
-    </div>
-    <div id="footerMain" class="footerProducts">
-        <footer>
-            <ul>
-                <li id="firstFooter">About</li>
-                <li>|</li>
-                <li>Products</li>
-                <li>|</li>
-                <li>Actuality</li>
-                <li>|</li>
-                <li>Contacts</li>
-            </ul>
-        </footer>
-    </div>
+        <div id="footerMain" class="footerProducts">
+            <footer>
+                <ul>
+                    <li id="firstFooter">About</li>
+                    <li>|</li>
+                    <li>Products</li>
+                    <li>|</li>
+                    <li>Actuality</li>
+                    <li>|</li>
+                    <li>Contacts</li>
+                </ul>
+            </footer>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>

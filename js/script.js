@@ -78,16 +78,16 @@ modal.style.display = "none";
 }
 }
 
-function openProduct(evt, productsName) {
-    var i, productitems, catlinks;
-    productsitems= document.getElementsByClassName("productitems");
-    for(i=0; i < productitems.length; i++){
-        productitems[i].style.display="none";
+function openProduct(evt, cityName) {
+    var i, prodcontent, itemslinks;
+    prodcontent = document.getElementsByClassName("prodcontent");
+    for (i = 0; i < prodcontent.length; i++) {
+      prodcontent[i].style.display = "none";
     }
-    catlinks= document.getElementsByClassName("catlinks");
-    for (i=0; i < catlinks.img;i++){
-        catlinks[i].className=catlinks[i].className.replace(" active", "");
+    itemslinks = document.getElementsByClassName("itemslinks");
+    for (i = 0; i < itemslinks.length; i++) {
+      itemslinks[i].className = itemslinks[i].className.replace(" active", "");
     }
-    document.getElementById(productsName).style.display="block";
-    evt.currentTarget.className +="active";
-}
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
