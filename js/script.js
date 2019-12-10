@@ -77,6 +77,26 @@ if (event.target == modal) {
 modal.style.display = "none";
 }
 }
+var modal = document.getElementById('itemwrapper7');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+var modal = document.getElementById('itemwrapper8');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+var modal = document.getElementById('itemwrapper9');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+
 
 function openProduct(evt, cityName) {
     var i, prodcontent, itemslinks;

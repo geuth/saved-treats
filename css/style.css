@@ -514,6 +514,7 @@ filter: grayscale(100%);
   border-left: none;
   height: 600px;
   display: none;
+  padding-left:7em;
 }
 
 .clearfix::after {
