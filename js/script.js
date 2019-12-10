@@ -95,7 +95,57 @@ if (event.target == modal) {
 modal.style.display = "none";
 }
 }
+var modal = document.getElementById('itemwrapper10');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
 
+var modal = document.getElementById('itemwrapper11');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+var modal = document.getElementById('itemwrapper12');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+var modal = document.getElementById('itemwrapper13');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+var modal = document.getElementById('itemwrapper14');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+var modal = document.getElementById('itemwrapper15');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+var modal = document.getElementById('itemwrapper16');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+var modal = document.getElementById('itemwrapper17');
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
 
 
 function openProduct(evt, cityName) {
