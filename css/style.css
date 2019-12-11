@@ -17,7 +17,11 @@ h1 {
 p {
   font-family: 'Roboto', sans-serif;
 }
-
+.clearfix1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*main page*/
 #nav {
   width: 100vw;
@@ -27,15 +31,15 @@ p {
 
 #logo {
   height: 200px;
-  width: 150px;
+  width: 260px;
   padding-left: 4em;
   padding-top: 3em;
   margin: 0;
   float: left;
 }
 #logo1 {
-  height: 220px;
-  width: 200px;
+  height: 260px;
+  width: 320px;
   padding-left: 4em;
   padding-top: 3em;
   margin: 0;
@@ -66,12 +70,15 @@ ul img{
 #nav1 li a {
   text-decoration: none;
   color: white;
-  padding: 1.5em;
   font-family: 'Lobster', cursive;
   font-size: 2em;
   float: right;
-  padding-top:5em;
+  padding-top:6em;
   margin-right:3em;
+}
+
+#nav1 li {
+  margin-left:4em;
 }
 #first {
   padding-left: 85em;
