@@ -548,7 +548,7 @@ filter: grayscale(100%);
 
 .list2 button {
   display: block;
-  background-color: inherit;
+  background-image: linear-gradient(rgb(250, 225, 225),white, white);
   color: #F294AD;
   padding: 22px 16px;
   width: 100%;
@@ -559,7 +559,8 @@ filter: grayscale(100%);
   font-size: 27px;
   padding-bottom: 2em;
   padding-top:2em;
-  
+  font-family: 'Lobster', cursive;
+
 }
 
 .list2 button:hover {
@@ -579,6 +580,8 @@ filter: grayscale(100%);
   height: 850px;
   display: none;
   padding-left:7em;
+  background-image: linear-gradient(rgb(250, 225, 225),white, white);
+
 }
 
 .clearfix::after {
