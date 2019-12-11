@@ -21,6 +21,7 @@ p {
 /*main page*/
 #nav {
   width: 100vw;
+  height:10vw;
   background-color: #F294AD;
 }
 
@@ -32,22 +33,49 @@ p {
   margin: 0;
   float: left;
 }
+#logo1 {
+  height: 220px;
+  width: 200px;
+  padding-left: 4em;
+  padding-top: 3em;
+  margin: 0;
+  float: left;
+}
 
 ul li {
   display: inline-block;
   padding-bottom: 2em;
 }
-
+ul img{
+  float:left;
+}
+#nav1 {
+  width: 100vw;
+  height:10vw;
+  background-color: #F294AD;
+}
 #nav li a {
   text-decoration: none;
   color: white;
   padding: 1.5em;
   font-family: 'Lobster', cursive;
   font-size: 2em;
+  float: right;
+  padding-top:5em;
 }
-
+#nav1 li a {
+  text-decoration: none;
+  color: white;
+  padding: 1.5em;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  float: right;
+  padding-top:5em;
+  margin-right:3em;
+}
 #first {
   padding-left: 85em;
+  padding-top: 3em;
 }
 
 h1 {
@@ -69,7 +97,7 @@ h1 {
 }
 
 .starProductPic {
-  margin-left: 30em;
+  margin-left: 20em;
   font-family: 'Roboto', sans-serif;
   border: 9px double #F294AD;
   border-radius: 12px;
@@ -82,7 +110,7 @@ h1 {
 }
 
 .coffeCakePic {
-  margin-left: 10em;
+  align-content: center;
 }
 
 .buttonDetails {
@@ -90,9 +118,10 @@ h1 {
   height: 2em;
   background-color: #F294AD;
   color: white;
-  margin-left: 15em;
+  margin-left: 9em;
   border-radius: 6px;
   font-size: 20px;
+
 }
 
 .followingButton {
@@ -113,7 +142,7 @@ div.imgContain p {
 
 .imgContain {
   text-align: center;
-  margin: 40px 0 12 px 0;
+  margin: 40px 0 12px 0;
   position: relative;
 
 }
@@ -220,13 +249,13 @@ div#footerMain ul li a {
 .aboutUs h1 {
   text-align: center;
   align-items: center;
-
 }
 
 #worldStory {
   color: #F294AD;
   padding-left: 20em;
   padding-top: 20em;
+  
 }
 
 .ourworld {
@@ -236,10 +265,25 @@ div#footerMain ul li a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   text-align-last: center;
+  
 }
-
+div.year{
+  text-shadow: 6px 3px black;
+  font-weight: bold;
+}
+div.textInformation h1{
+  text-shadow: 6px 3px black;
+  padding:1em;
+  font-weight: bold;
+}
+div.textInformation p{
+  text-shadow: 1px 1px rgb(241, 207, 216);
+  padding:1em;
+  font-weight: bold;
+}
 #textWorld {
   padding-top: 5em;
+  
 }
 
 #preppic {
@@ -297,10 +341,9 @@ div#footerMain ul li a {
 
 /*Form css*/
 #formContact {
-  margin-left: 30vw;
+ margin-left:39em;
   color: #F294AD;
   width: 40vw;
-  height: 40vh;
   text-align: center;
   padding-top: 80px;
   margin-bottom: 20em;
@@ -308,6 +351,13 @@ div#footerMain ul li a {
 
 #formContact fieldset {
   border-color: #F294AD;
+ width: 50vw;
+ height:80vh;
+ 
+}
+#formContact fieldset p{
+  font-size:2em;
+  padding-top:0.5em;
 }
 
 #formContact fieldset legend {
@@ -320,28 +370,33 @@ div#footerMain ul li a {
 #formContact input {
   color: #F294AD;
   background: #F294AD;
-  width: 34em;
+  width: 50em;
+  height:3em;
   font-family: 'Lobster', cursive;
 }
 
 input#submitButton {
   color: white;
   margin-bottom: 3vh;
-  width: 20em;
+  width: 10em;
+  height:3em;
+  font-size:1.5em;
 }
 
-#contentForm {
-  height: 25vh;
+input#contentForm {
+  height: 30vh;
+  
+
 }
 
 #dropDown {
   background-color: #F294AD;
-  width: 15.5vw;
+  width: 22.5vw;
   height: 4vh;
   color: white;
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 2.5vh;
+  font-size: 2em;
 
 }
 
@@ -355,7 +410,13 @@ td#formAction form {
   width: 12vw;
   height: 1vh;
 }
+fieldset h1{
+  font-size:2em;
 
+}
+.footerContact{
+  top:300em;
+}
 #buttonSubmit {
   color: white;
   background-color: #F294AD;
@@ -380,6 +441,7 @@ td#formAction form {
   color:#F294AD;
   overflow: hidden;
   transition: width 0.5s ease;
+  text-shadow: 5px 2px rgb(252, 225, 232);
 }
 .event1:before, .event1:after{
   transform: translate3d(0,0,0);
@@ -474,14 +536,14 @@ filter: grayscale(100%);
 
 /*products page css*/
 #starProducts1{
-  margin-left:7em;
+  margin-left:3em;
 }
 .list2 {
   float: left;
   border: 3px solid #F294AD;
   background-color: white;
   width: 30%;
-  height: 800px;
+  height: 850px;
 }
 
 .list2 button {
@@ -495,7 +557,8 @@ filter: grayscale(100%);
   text-align: center;
   cursor: pointer;
   font-size: 27px;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+  padding-top:2em;
   
 }
 
@@ -513,7 +576,7 @@ filter: grayscale(100%);
   border: 3px solid #F294AD;
   width: 60%;
   border-left: none;
-  height: 800px;
+  height: 850px;
   display: none;
   padding-left:7em;
 }
@@ -535,12 +598,12 @@ filter: grayscale(100%);
   width: 80vw;
   height: 40vh;
   text-align: center;
-  padding-top: 4vh;
+  padding-top: 4em;
   padding-bottom: 2em;
 }
 
 #actuality legend {
-  font-size: 9vh;
+  font-size: 2em;
 }
 
 #actuality fieldset {
@@ -568,7 +631,7 @@ filter: grayscale(100%);
 }
 
 .actuality1 {
-  margin-top: 300em;
+  margin-top: 130em;
 }
 
 .pastryAct2 {
