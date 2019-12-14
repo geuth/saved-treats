@@ -3,65 +3,97 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saved Treats Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <div id="container">
+    <!--Body-->
+    <div class="container-fluid" id="container">
+        <!--header-->
+        <header>
+            <!--Nav-->
+            <nav>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"> <img src="images/logo2.png" alt="logoPic" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Nav items-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class=" nav-item active nav-link "><a href="index.html">Home <span
+                                        class="sr-only">(current)</span></a> </li>
+                            <li class=" nav-item active nav-link"><a href="products.html">Products</a></li>
+                            <li class=" nav-item active nav-link"><a href="about.html">About</a></li>
+                            <li class=" nav-item active nav-link"><a href="actuality.html">Newsletter</a></li>
+                            <li class=" nav-item active nav-link"><a href="contacts.html">Contacts</a></li>
+                        </ul>
 
-        <nav id="nav">
+                    </div>
+                </nav>
+            </nav>
+        </header>
+
+<div class="box7 ">
+        <form>
+            <h2>Contact Form</h2>
+                <div class="form-group ">
+                  <label for="exampleFormControlInput1">Last Name</label>
+                  <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                </div>
+                <div class="form-group">
+                        <label for="exampleFormControlInput1">First Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                      </div>
+                <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Select Shop</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1196 White Bear Lake,</option>
+                        <option>963 University Ave</option>
+                  </select>
+                </div>
+         
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary rounded float-right">Submit</button>
+              </form>
+
+
+            </div>
+        <footer>
             <ul>
-                <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
-                <li class="menuLink" id="first"><a href="index.html">Home</a></li>
-                <li class="menuLink"><a href="products.html">Products</a></li>
-                <li class="menuLink"><a href="about.html">About</a></li>
-                <li class="menuLink"><a href="actuality.html">Actuality</a></li>
-                <li class="menuLink"><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>|</li>
+                <li><a href="products.html">Products</a></li>
+                <li>|</li>
+                <li><a href="actuality.html">Actuality</a></li>
+                <li>|</li>
+                <li><a href="contacts.html">Contacts</a></li>
             </ul>
-        </nav>
-   <div id="formContact">
-       <form action="#">
-           <fieldset>
-               <legend>Contact Form</legend>
-               Choose the shop to contact:<br>
-               <select name="shop" id="dropDown">
-                <option value="whiteBear">White Bear Lake</option>
-                <option value="universityAvenue">University Avenue</option>
-              </select>
-               <br>
-               Mail:<br>
-               <input type="text" name="Mail" >
-               <br>
-               Object:<br>
-               <input type="text" name="Object" >
-               <br>
-               Content:<br>
-               <input type="text" name="Content" id="contentForm">
-               <br><br>
-               <input type="submit" value="Submit" id="submitButton">
-           </fieldset>
-       </form>
-   </div>
-        <div id="footerMain">
-            <footer>
-                <ul>
-                    <li id="firstFooter">About</li>
-                    <li>|</li>
-                    <li>Products</li>
-                    <li>|</li>
-                    <li>Actuality</li>
-                    <li>|</li>
-                    <li>Contacts</li>
-                </ul>
-            </footer>
-        </div>
+        </footer>
     </div>
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

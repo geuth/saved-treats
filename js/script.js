@@ -161,3 +161,16 @@ function openProduct(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  
+  $(document).ready(function(){
+
+    $('.carousel').carousel({
+        interval: 5000
+      });
+
+      $('.productBox').scrollspy({ target: '#navbar-example' })
+//document.ready function ends here
+
+
+  });

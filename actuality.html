@@ -3,83 +3,117 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saved Treats Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="container">
+    <!--Body-->
+    <div class="container-fluid" id="container">
+        <!--header-->
+        <header class="box6">
+            <!--Nav-->
+            <nav>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"> <img src="images/logo2.png" alt="logoPic" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Nav items-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class=" nav-item active nav-link "><a href="index.html">Home <span
+                                        class="sr-only">(current)</span></a> </li>
+                            <li class=" nav-item active nav-link"><a href="products.html">Products</a></li>
+                            <li class=" nav-item active nav-link"><a href="about.html">About</a></li>
+                            <li class=" nav-item active nav-link"><a href="actuality.html">Newsletter</a></li>
+                            <li class=" nav-item active nav-link"><a href="contacts.html">Contacts</a></li>
+                        </ul>
 
-   
-        <nav id="nav">
+                    </div>
+                </nav>
+            </nav>
+        </header>
+
+        <div class="box8 text-center">
+            <h2>Newsletters</h2>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/macaron2.jpg" alt="macaron" class="img-fluid text-center">
+                        <figcaption id="caption1">Festival of Treats Coming</figcaption>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/eclair1.jpg" alt="eclair" class="img-thumbnail text-center">
+                        <figcaption id="caption1">Your Eclair In A New Flavour</figcaption>
+
+                    </div>
+                    <div class="col">
+                        <img src="images/puffpaastry1.jpg" alt="pastryPuff" class="img-thumbnail text-center">
+                        <figcaption id="caption1">New Catering Desserts Coming</figcaption>
+
+                    </div>
+                    <div class="col">
+                        <img src="images/smallpastries1.jpg" alt="smallPastries" class="img-thumbnail text-center">
+                        <figcaption id="caption1">New Products Coming on 11/12</figcaption>
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col ">
+                        <img src="images/Dessert1.jpg" alt="eclair" class="img-thumbnail">
+                    </div>
+                    <div class="col subscribe subscribeback">
+                        <h2 class="paragraph2">Join Us With Our Newsletter<br>Enter your email adress:<br></h2>
+                        <form class="form-inline text-center item1">
+                            <div class="form-group mb-2 text-center ">
+                                <label for="staticEmail2" class="sr-only">Email</label>
+                            </div>
+                            <div class="form-group mx-sm-3 mb-2 text-center ">
+                                <label for="inputPassword2" class="sr-only text-center ">Email</label>
+                                <input type="email" class="form-control text-center " id="email" placeholder="email">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2 text-center ">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <footer>
             <ul>
-                <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
-                <li class="menuLink" id="first"><a href="index.html">Home</a></li>
-                <li class="menuLink"><a href="products.html">Products</a></li>
-                <li class="menuLink"><a href="about.html">About</a></li>
-                <li class="menuLink"><a href="actuality.html">Actuality</a></li>
-                <li class="menuLink"><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>|</li>
+                <li><a href="products.html">Products</a></li>
+                <li>|</li>
+                <li><a href="actuality.html">Actuality</a></li>
+                <li>|</li>
+                <li><a href="contacts.html">Contacts</a></li>
             </ul>
-        </nav>
-        <div id="actuality">
-
-            <form action="#" id="actuality">
-                <fieldset>
-                    <legend>Actuality</legend>
-                    <img src="images/macaron2.jpg" alt="macaron" id="tart1Act">
-                    <figcaption id="caption1">New Products Coming on 11/12</figcaption>
-                    <table>
-                        <tr>
-                            <td><img src="images/eclair2.jpg" alt="eclair" class="pastryAct2"></td>
-                            <td><img src="images/puffpaastry.jpg" alt="pastryPuff" class="pastryAct2"></td>
-                            <td><img src="images/smallpastries.jpg" alt="smallPastries" class="pastryAct2"> </td>
-                        </tr>
-                    </table>
-                    <table class="table1">
-                        <tr>
-                            <td><span class="caption2">Your Eclair In A New Flavour</span></td>
-                            <td> <span class="caption2"> Festival of Treats Coming</span></td>
-                            <td> <span class="caption2">New Catering Desserts Coming</span></td>
-                        </tr>
-                    </table>
-                    <table class="formSub">
-                        <tr>
-                            <td><img src="images/Dessert.jpg" alt="Dessert" id="dessert4"></td>
-                            <td id="formAction">
-                                <form action="#">
-                                    Join Us With Our Newsletter<br>
-                                    Enter your email adress:<br>
-                                    <input type="text" name="email">
-                                    <br>
-                                    <input type="submit" name="Submit" id="buttonSubmit">
-
-                                </form>
-                            </td>
-                        </tr>
-
-                    </table>
-
-            </form>
-            </table>
-        </div>
-        <div id="footerMain" class="actuality1">
-            <footer>
-                <ul>
-                    <li id="firstFooter">About</li>
-                    <li>|</li>
-                    <li>Products</li>
-                    <li>|</li>
-                    <li>Actuality</li>
-                    <li>|</li>
-                    <li>Contacts</li>
-                </ul>
-            </footer>
-        </div>
+        </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
     <script src="js/script.js"></script>
 </body>
 

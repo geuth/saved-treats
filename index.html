@@ -3,203 +3,332 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saved Treats Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <div id="container">
+    <!--Body-->
+    <div class="container-fluid" id="container">
+        <!--header-->
+        <header>
+            <!--Nav-->
+            <nav>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"> <img src="images/logo2.png" alt="logoPic" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Nav items-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class=" nav-item active nav-link "><a href="index.html">Home <span
+                                        class="sr-only">(current)</span></a> </li>
+                            <li class=" nav-item active nav-link"><a href="products.html">Products</a></li>
+                            <li class=" nav-item active nav-link"><a href="about.html">About</a></li>
+                            <li class=" nav-item active nav-link"><a href="actuality.html">Newsletter</a></li>
+                            <li class=" nav-item active nav-link"><a href="contacts.html">Contacts</a></li>
+                        </ul>
 
-        <nav id="nav">
+                    </div>
+                </nav>
+            </nav>
+        </header>
+        <!--Slideshow-->
+        <main class="container">
+
+            <div class="box1 container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/macaron-2.jpg" class="d-block w-100" alt="macaron">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Macaron</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cupcake-2.jpg" class="d-block w-100" alt="cupcake">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cupcake</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/chocolatEntremet-2.jpg" class="d-block w-100" alt="chocolatEntremet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Chocolat Entremet</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/CaramelCake-2.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Caramel Cake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!--Star Products-->
+            <div class="box2">
+                <div class="row">
+                    <h2>Popular Products</h2>
+
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                            <!--first item-->
+                            <div class="col">
+                                <img src="images/croissant1.jpg" class="card-img-top" alt="coffecake">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/croissant1.jpg" class="card-img-top"
+                                                        alt="coffecake">
+                                                    <h1 class="ingredients">Croissant</h1>
+                                                    <p class="ingredients"> Description: <br> A soft Croissant that
+                                                        gives you
+                                                        an authentic French
+                                                        savour.
+                                                        Layers of deliciousness and with a buttery taste that makes
+                                                        you crave for more.
+                                                        <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                        <br>
+                                                        Calories:290</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--first item end here-->
+                            <!--second item start here-->
+                            <div class="col">
+                                <img src="images/chocolatEntremet1.jpg" class="card-img-top" alt="coffecake">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter1">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/chocolatEntremet1.jpg" class="card-img-top"
+                                                        alt="coffecake">
+                                                    <h1 class="ingredients">Chocolat Entremet</h1>
+                                                    <p class="ingredients"> Description: <br>A soft Croissant that gives
+                                                        you
+                                                        an authentic French
+                                                        savour.
+                                                        Layers of deliciousness and with a buttery taste that makes
+                                                        you crave for more.
+                                                        <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                        <br>
+                                                        Calories:290</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--second item end here-->
+                            <!--third item start here-->
+                            <div class="col">
+                                <img src="images/cupcake1.jpg" class="card-img-top" alt="coffecake">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter2">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/cupcake1.jpg" class="card-img-top" alt="coffecake">
+                                                    <h1>Cupcake</h1>
+                                                    <p class="ingredients"> Description:<br> A soft cupcakes that gives
+                                                        you numeroussavour.Layers of deliciousness and with a buttery
+                                                        taste that makes you crave for more.
+                                                        <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                        <br>
+                                                        Calories:290</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--third item end here-->
+                            <!--fourth item start here-->
+                            <div class="col">
+                                <img src="images/donuts1.jpg" class="card-img-top" alt="coffecake">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter3">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/donuts1.jpg" class="card-img-top" alt="coffecake">
+                                                    <h1>Cupcake</h1>
+                                                    <p class="ingredients"> Description:<br> A soft cupcakes that gives
+                                                        you numeroussavour.Layers of deliciousness and with a buttery
+                                                        taste that makes you crave for more.
+                                                        <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                        <br>
+                                                        Calories:290</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--fourth item end here-->
+                            <!-- row ends here -->
+                        </div>
+                    </div>
+
+        </main>  
+        <!--end of the star product-->
+        <!--start about us part-->
+        <main id="box3">
+                <h1 >About Us</h1>
+                <div class="media">
+                        
+                        <img src="images/prep1.jpg" class="mr-3" alt="...">
+                        <div class="media-body">
+                          <h2 class="mt-0">Sweet Treats</h2>
+                         <h3> A pastries shop opened for more than ten years. <br>Pastries that
+                          gives you the taste of home and that are all made from scratch.<br> We are known for our
+                          authenticity and guarantee our products quality.
+                          <br>
+                          <a href="about.html" >For more informations, click here</a></h3>
+                        </div>
+                      </div>
+              
+<!--end about us part-->
+        </main>
+        <!--Start location-->
+        <main id="box4">
+            <div class="location clearfix">
+                <div class="image">
+                <img src="images/pastriesfront.jpg" class="rounded float-left" alt="location">
+                <img src="images/pastriesfront2.jpg" class="rounded float-right" alt="location">
+        </div>
+            </div>
+            <div class="descrip">
+            <p  class="rounded float-left">1196 White Bear Lake,<br> MN 55930</p>
+            <p  class="rounded float-right">963 University Ave, <br> MN 56980</p>
+        </div>
+        </main>
+        <!--end location-->
+        <footer>
             <ul>
-                <li><img src="images/logo2.png" alt="logoPic" id="logo"></li>
-                <li class="menuLink" id="first"><a href="index.html">Home</a></li>
-                <li class="menuLink"><a href="products.html">Products</a></li>
-                <li class="menuLink"><a href="about.html">About</a></li>
-                <li class="menuLink"><a href="actuality.html">Actuality</a></li>
-                <li class="menuLink"><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>|</li>
+                <li><a href="products.html">Products</a></li>
+                <li>|</li>
+                <li><a href="actuality.html">Actuality</a></li>
+                <li>|</li>
+                <li><a href="contacts.html">Contacts</a></li>
             </ul>
-        </nav>
-        <div id="slideshowBox">
-            <div class="slideshow1 fade">
-                <img src="images/cupcake-2.jpg" alt="cupcake" style="width:100%">
-                <div class="text">Cupcakes</div>
-            </div>
-            <div class=" slideshow1 fade">
-                <img src="images/macaron-2.jpg" alt="macaron" style="width:100%">
-                <div class="text">Macaron</div>
-            </div>
-            <div class="slideshow1 fade">
-                <img src="images/CaramelCake-2.jpg" alt="caramelCake" style="width:100%">
-                <div class="text">Caramel Cake</div>
-            </div>
-            <div class="slideshow1 fade">
-                <img src="images/chocolatEntremet-2.jpg" alt="chocolat" style="width:100%">
-                <div class="text">Chocolat Entremets</div>
-            </div>
-
-            <a class="prev" onclick="minusSlides(-1)" class="arrow">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)" class="arrow">&#10095;</a>
-            <div id="dots" style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </div>
-
-        <div id="starProducts">
-            <h1>Our Star Products</h1>
-            <div class="starProductPic">
-                <img src="images/coffeecake.jpg" alt="coffeeCake" class="productPics coffeCakePic" id="mainStar">
-                <img src="images/croissant.jpg" alt="croissant" class="productPics">
-                <img src="images/chocolatEntremet.jpg" alt="chocoEntremets" class="productPics">
-                <img src="images/cupcake3.jpg" alt="cupcakeVarieties" class="productPics">
-                <img src="images/tart.jpg" alt="tart" class="productPics">
-                <br>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:2px; margin-left:165px;">Details</button>
-
-                <button type="button" class="buttonDetails followingButton"
-                    onclick="document.getElementById('itemwrapper1').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:2px; margin-left:190px;">Details</button>
-
-                <button type="button" class="buttonDetails followingButton"
-                    onclick="document.getElementById('itemwrapper2').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:2px; margin-left:240px;">Details</button>
-
-                <button type="button" class="buttonDetails followingButton"
-                    onclick="document.getElementById('itemwrapper3').style.display='block'"
-                    style="width:100px; height:60px; margin-top:2px; margin-left:200px;">Details</button>
-
-                <button type="button" class="buttonDetails followingButton"
-                    onclick="document.getElementById('itemwrapper4').style.display='block'"
-                    style="width:100px;height:60px; margin-top:2px; margin-left:230px;;">Details</button>
-
-                <div id="itemwrapper" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/coffeecake.jpg" alt="coffeCake" class="cakecoffee">
-                            <h1>Coffee Cake</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-
-                <div id="itemwrapper1" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper1').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/croissant.jpg" alt="croissant" class="cakecoffee">
-                            <h1 class="ingredients">Croissant</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-
-                <div id="itemwrapper2" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper2').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/chocolateEntremet.jpg" alt="chocoEntremet" class="cakecoffee">
-                            <h1 class="ingredients">Chocolat Entremet</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-
-                <div id="itemwrapper3" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper3').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/cupcake3.jpg" alt="coffeCake" class="cakecoffee">
-                            <h1>Cupcake</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-
-                <div id="itemwrapper4" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper4').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-                            <img src="images/tart.jpg" alt="coffeCake" class="cakecoffee">
-                            <h1>Tart</h1>
-                            <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness,<br> with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div id="aboutWorld">
-            <h1>About Star Cake's World</h1>
-            <div class="aboutUs">
-                <img src="images/prep.jpg" alt="ourPrep" class="ourworld" id="preppic">
-                <p class="ourworld" id="textWorld"> A pastries shop opened for more than ten years. <br>Pastries that
-                    gives you the taste of home and that are all made from scratch.<br> We are known for our
-                    authenticity and guarantee our products quality.
-                    <br>
-                    <br>
-                    <a href="about.html" id="worldStory">For more informations, click here</a></p>
-            </div>
-        </div>
-        <div id="locations">
-            <h1>Our Locations</h1>
-            <div class="picloc">
-                <img src="images/pastriesfront.jpg" alt="pastriesFront1" class="locationpic">
-                <img src="images/pastriesfront2.jpg" alt="pastriesFront2" class="locationpic">
-                <br>
-                <p class="addressShop" id="whiteBear">1196 White Bear Lake,<br> MN 55930 </p>
-                <p class="addressShop" id="univAve">963 University Ave, <br> MN 56980</p>
-            </div>
-        </div>
-        <div id="footerMain">
-            <footer>
-                <ul>
-                    <li id="firstFooter"><a href="about.html">About</a></li>
-                    <li>|</li>
-                    <li><a href="products.html">Products</a></li>
-                    <li>|</li>
-                    <li><a href="actuality.html">Actuality</a></li>
-                    <li>|</li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                </ul>
-            </footer>
-        </div>
+        </footer>
     </div>
-
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
