@@ -84,9 +84,10 @@ main {
 
 div.row h2 {
     font-family: 'Lobster', cursive;
-    font-size: 2em;
+    font-size: 4em;
     color: #F294AD;
     text-shadow: 2px 2px rgb(113, 113, 113);
+  
 
 }
 
@@ -266,7 +267,7 @@ footer ul li a {
   .list2 {
     float: left;
     border: 3px solid #F294AD;
-    background-color: white;
+    background-image: linear-gradient(to right, rgb(255, 235, 242) , rgb(255, 255, 255));
     width: 30%;
     height: 900px;
   }
@@ -281,9 +282,13 @@ footer ul li a {
     outline: none;
     text-align: center;
     cursor: pointer;
-    font-size: 27px;
-    padding-bottom: 3em;
-    
+    font-size: 30px;
+    padding-top:1.5em;
+    padding-bottom: 1.5em;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
   }
   
   .list2 button:hover {
@@ -567,7 +572,9 @@ footer ul li a {
     transition: filter 0.5s ease;
     filter: grayscale(100%);
 }
+
 /*newsletter*/
+
 .box8{
     border: 10px double #F294AD;
 width:60vw;
@@ -576,11 +583,12 @@ align-items: center;
 justify-content: center;
 margin: auto;
 margin-bottom: 3em;
+margin-top:3em;
 }
 .box8 h2{
     font-family: 'Lobster', cursive;
     color: #F294AD;
-    font-size: 5em;
+    font-size: 2em;
     text-align: center;
     text-shadow: 2px 2px rgb(113, 113, 113);
 
@@ -598,19 +606,22 @@ margin-bottom: 3em;
     color: #F294AD;
     padding:1em;
     text-shadow: 2px 2px rgb(113, 113, 113);
-
+ 
 }
 .subscribeback{
     border: 10px double #F294AD;
+  height:13vw;
 }
 .paragraph2{
     padding-bottom:1em;
     padding-top:1em;
+    
+}
+div.row h2{
+    font-size:2em;
 }
 .item1{
     justify-content: center;
-
-
 }
 /*Contact form*/
 div.box7 {
