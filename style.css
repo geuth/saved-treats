@@ -220,7 +220,7 @@ footer ul li a {
 /*products*/
 .productBox{
     margin:3em;
-  
+    
 }
 #starProducts1{
     margin-left:7em;
@@ -242,17 +242,17 @@ footer ul li a {
     overflow: hidden;
     bottom: 0;
     width: 100%;
-    margin-top:3em;
+   
 }
-.box9{
-    margin-bottom: 10em;
-}
+
+
   .list2 {
     float: left;
     border: 3px solid #F294AD;
     background-image: linear-gradient(to right, rgb(255, 235, 242) , rgb(255, 255, 255));
     width: 30%;
     height: 900px;
+    margin-bottom:2em;
   }
   
   .list2 button {
