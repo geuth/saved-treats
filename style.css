@@ -189,8 +189,8 @@ button.btn.btn-primary {
     text-shadow: 2px 2px rgb(113, 113, 113);
 
 }
-.rounded{
-    width:20em;
+#box3 img.rounded{
+    width:20vw;
 }
 
 /*footer*/
@@ -490,7 +490,7 @@ margin-top:3em;
 }
 .subscribeback{
     border: 10px double #F294AD;
-  height:11vw;
+  height:16vw;
 }
 .paragraph2{
     padding-bottom:1em;
@@ -507,7 +507,7 @@ div.row h2{
 div.box7 {
     border: 10px double #F294AD;
     width: 70vw;
-    height: 80vh;
+    height: 150vh;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
