@@ -56,425 +56,625 @@
                     <button class="itemslinks" onmouseover="openProduct(event, 'Cupcakes')">Cupcakes</button>
                 </div>
     
-                <div id="Pastries" class="prodcontent">
-                    <img src="images/croissant.jpg" alt="croissant" class="productPics">
-                    <img src="images/donuts.jpg" alt="donuts" class="productPics">
-                    <img src="images/eclair.jpg" alt="eclair" class="productPics">
-                    <br>
-                    <button type="button" class="buttonDetails"
-                        onclick="document.getElementById('itemwrapper1').style.display='block'"
-                        style="width:100px;height:60px;  margin-top:15px; margin-left:59px;">Details</button>
-                    <button type="button" class="buttonDetails"
-                        onclick="document.getElementById('itemwrapper2').style.display='block'"
-                        style="width:100px;height:60px;  margin-top:15px; margin-left:130px;">Details</button>
-                    <button type="button" class="buttonDetails"
-                        onclick="document.getElementById('itemwrapper3').style.display='block'"
-                        style="width:100px;height:60px;  margin-top:15px; margin-left:125px;">Details</button>
+                <div id="Pastries" class="prodcontent img-fluid">
+                        <div class="container">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <!--first item-->
+                                    <div class="col">
+                                        <img src="images/croissant1.jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalCenter">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/croissant1.jpg" class="card-img-top"
+                                                                alt="coffecake">
+                                                            <h1 class="ingredients">Croissant</h1>
+                                                            <p class="ingredients"> Description: <br> A soft Croissant that
+                                                                gives you
+                                                                an authentic French
+                                                                savour.
+                                                                Layers of deliciousness and with a buttery taste that makes
+                                                                you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--first item end here-->
+                                    <!--second item start here-->
+                                    <div class="col">
+                                        <img src="images/puffpaastry1.jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalCenter1">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Cream puff</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/puffpaastry1.jpg" class="card-img-top"
+                                                                alt="coffecake">
+                                                            <h1 class="ingredients">Puff Pastry</h1>
+                                                            <p class="ingredients"> Description: <br>A soft puff pastry that gives
+                                                                you
+                                                                an authentic French
+                                                                savour.
+                                                                Layers of deliciousness and with a buttery taste that makes
+                                                                you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--second item end here-->
+                                    <!--third item start here-->
+                                    <div class="col">
+                                        <img src="images/eclair1.jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary d-flex d-md-table mx-auto" data-toggle="modal"
+                                                data-target="#exampleModalCenter2">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/eclair1.jpg" class="card-img-top" alt="coffecake">
+                                                            <h1>Cupcake</h1>
+                                                            <p class="ingredients"> Description:<br> A soft cupcakes that gives
+                                                                you numeroussavour.Layers of deliciousness and with a buttery
+                                                                taste that makes you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--third item end here-->
+                                    <!--fourth item start here-->
+                                    <div class="col">
+                                        <img src="images/donuts1.jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary d-flex d-md-table mx-auto" data-toggle="modal"
+                                                data-target="#exampleModalCenter3">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Croissant</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/donuts1.jpg" class="card-img-top" alt="coffecake">
+                                                            <h1>Cupcake</h1>
+                                                            <p class="ingredients"> Description:<br> A soft cupcakes that gives
+                                                                you numeroussavour.Layers of deliciousness and with a buttery
+                                                                taste that makes you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                
+
+
+    </div>
+                </div>
+    
+           </div> 
+    
+
+            <div id="Tart" class="prodcontent img-fluid">
+                
+                    <div class="container">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                <!--first item-->
+                                <div class="col">
+                                    <img src="images/tartMeringue1.jpg" class="card-img-top" alt="coffecake">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter4">
+                                            Details
+                                        </button>
+    
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Tart Meringue</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/tartMeringue1.jpg" class="card-img-top"
+                                                            alt="coffecake">
+                                                        <h1 class="ingredients">Tart meringue</h1>
+                                                        <p class="ingredients"> Description: <br> A tart that
+                                                            gives you an authenticsavour.Layers of deliciousness and with a buttery taste that makes
+                                                            you crave for more.
+                                                            <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                            <br>
+                                                            Calories:290</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--first item end here-->
+                                <!--second item start here-->
+                                <div class="col">
+                                    <img src="images/tart1.jpg" class="card-img-top" alt="coffecake">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter5">
+                                            Details
+                                        </button>
+    
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Apple Tart</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/tart1.jpg" class="card-img-top"
+                                                            alt="coffecake">
+                                                        <h1 class="ingredients">Apple Tart</h1>
+                                                        <p class="ingredients"> Description: <br>A soft Croissant that gives
+                                                            you
+                                                            an authentic French
+                                                            savour.
+                                                            Layers of deliciousness and with a buttery taste that makes
+                                                            you crave for more.
+                                                            <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                            <br>
+                                                            Calories:290</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--second item end here-->
+                                <!--third item start here-->
+                                <div class="col">
+                                    <img src="images/pieRedFruits1.jpg" class="card-img-top" alt="coffecake">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter6">
+                                            Details
+                                        </button>
+    
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Red Fruits tart</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/pieRedFruits1.jpg" class="card-img-top" alt="coffecake">
+                                                        <h1>Red Fruits tart</h1>
+                                                        <p class="ingredients"> Description:<br> A tart
+                                                            you numeroussavour.Layers of deliciousness and with a buttery
+                                                            taste that makes you crave for more.
+                                                            <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                            <br>
+                                                            Calories:290</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                                   
+                                    </div>
+                                </div>
+
+
+
+
+                </div>
+</div>
+
+            </div>
+            <div id="Salted" class="prodcontent img-fluid">
+                    <div class="container">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                <!--first item-->
+                                <div class="col">
+                                    <img src="images/quiche_2.jpg" class="card-img-top" alt="coffecake">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter7">
+                                            Details
+                                        </button>
+    
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Quiche</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/quiche_2.jpg" class="card-img-top"
+                                                            alt="coffecake">
+                                                        <h1 class="ingredients">Pizza</h1>
+                                                        <p class="ingredients"> Description: <br> A pizza that
+                                                            gives you an authenticsavour.Layers of deliciousness and with a buttery taste that makes
+                                                            you crave for more.
+                                                            <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                            <br>
+                                                            Calories:290</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--first item end here-->
+                                <!--second item start here-->
+                                <div class="col">
+                                    <img src="images/quiche_1.jpg" class="card-img-top" alt="coffecake">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter8">
+                                            Details
+                                        </button>
+    
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Quiche</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/quiche_1.jpg" class="card-img-top"
+                                                            alt="coffecake">
+                                                        <h1 class="ingredients">Quiche</h1>
+                                                        <p class="ingredients"> Description: <br>A soft quiche that gives
+                                                            you
+                                                            an authentic 
+                                                            savour.
+                                                            Layers of deliciousness and with a buttery taste that makes
+                                                            you crave for more.
+                                                            <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                            <br>
+                                                            Calories:290</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--second item end here-->
+                                <!--third item start here-->
+                                <div class="col">
+                                    <img src="images/pizza1.jpg" class="card-img-top" alt="coffecake">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter9">
+                                            Details
+                                        </button>
+    
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Pizza</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/pizza1.jpg" class="card-img-top" alt="coffecake">
+                                                        <h1>Pizza</h1>
+                                                        <p class="ingredients"> Description:<br> A pizza
+                                                            you numeroussavour.Layers of deliciousness and with a buttery
+                                                            taste that makes you crave for more.
+                                                            <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                            <br>
+                                                            Calories:290</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                                   
+                                    </div>
+                                </div>
+
+
+
+</div>
+                </div>
+
+                <div id="Cakes" class="prodcontent img-fluid">
+                        <div class="container">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <!--first item-->
+                                    <div class="col">
+                                        <img src="images/CaramelCake-2.jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalCenter10">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter10" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Caramel Cake</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/CaramelCake-2.jpg" class="card-img-top"
+                                                                alt="coffecake">
+                                                            <h1 class="ingredients">Caramel Cake</h1>
+                                                            <p class="ingredients"> Description: <br> A caramel cake that
+                                                                gives you an authenticsavour.Layers of deliciousness and with a buttery taste that makes
+                                                                you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--first item end here-->
+                                    <!--second item start here-->
+                                    <div class="col">
+                                        <img src="images/chocolatCrepe1jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalCenter11">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Chocolat Cake</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/chocolatCrepe1jpg" class="card-img-top"
+                                                                alt="coffecake">
+                                                            <h1 class="ingredients">Chocolat Mille Crepe</h1>
+                                                            <p class="ingredients"> Description: <br>A cake that
+                                                                you
+                                                                an authentic 
+                                                                savour.
+                                                                Layers of deliciousness and with a buttery taste that makes
+                                                                you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--second item end here-->
+                                    <!--third item start here-->
+                                    <div class="col">
+                                        <img src="images/carrotCake1.jpg" class="card-img-top" alt="coffecake">
+                                        <div class="card-body c-D">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalCenter12">
+                                                Details
+                                            </button>
+        
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter12" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Carrot Cake</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="images/carrotCake1.jpg" class="card-img-top" alt="coffecake">
+                                                            <h1>Pizza</h1>
+                                                            <p class="ingredients"> Description:<br> A carrot cake that gives
+                                                                you numerous savour.Layers of deliciousness and with a buttery
+                                                                taste that makes you crave for more.
+                                                                <br>Ingredients:<br>flour,sugar,salt, yeast, butter, egg,milk
+                                                                <br>
+                                                                Calories:290</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                                       
+                                        </div>
+                                    </div>
     
     
     
-    
-    
-                    <div id="itemwrapper1" class="boxButton">
-                        <form action="#" class="boxContent animate">
-                            <div class="imgContain">
-                                <span onclick="document.getElementById('itemwrapper1').style.display='none'" class="close"
-                                    title="CloseBox">&times;</span>
-    
-                                <img src="images/croissant.jpg" alt="croissant" class="cakecoffee">
-                                <h1 class="ingredients">Croissant</h1>
-                                <p class="ingredients"> Description: A soft Croissant that gives you an authentic French
-                                    savour.
-                                    <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                    <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                    Calories:290</p>
-                            </div>
-                        </form>
+    </div>
                     </div>
-                    <div id="itemwrapper2" class="boxButton">
-                        <form action="#" class="boxContent animate">
-                            <div class="imgContain">
-                                <span onclick="document.getElementById('itemwrapper2').style.display='none'" class="close"
-                                    title="CloseBox">&times;</span>
-    
-                                <img src="images/donuts.jpg" alt="donuts" class="cakecoffee">
-                                <h1 class="ingredients">Donuts</h1>
-                                <p class="ingredients"> Description: A soft donuts that gives you an authentic French
-                                    savour.
-                                    <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                    <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                    Calories:290</p>
-                            </div>
-                        </form>
-                    </div>
-    
-                    <div id="itemwrapper3" class="boxButton">
-                        <form action="#" class="boxContent animate">
-                            <div class="imgContain">
-                                <span onclick="document.getElementById('itemwrapper3').style.display='none'" class="close"
-                                    title="CloseBox">&times;</span>
-    
-                                <img src="images/eclair.jpg" alt="donuts" class="cakecoffee">
-                                <h1 class="ingredients">Donuts</h1>
-                                <p class="ingredients"> Description: A eclair that gives you an authentic French
-                                    savour.
-                                    <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                    <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                    Calories:290</p>
-                            </div>
-                        </form>
-                    </div>
-    
-    
-                </div>
-    
-            </div>
-    
-            <div id="Tart" class="prodcontent">
-                <img src="images/tart.jpg" alt="tart" class="productPics">
-                <img src="images/tartMeringue.jpg" alt="tartMeringue" class="productPics">
-                <img src="images/pieRedFruits.jpg" alt="pieRedFruits" class="productPics">
-                <br>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper4').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:59px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper5').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:130px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper6').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:125px;">Details</button>
-    
-    
-    
-    
-    
-                <div id="itemwrapper4" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper4').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/tart.jpg" alt="tart" class="cakecoffee">
-                            <h1 class="ingredients">Tart</h1>
-                            <p class="ingredients"> Description: A tart that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-                <div id="itemwrapper5" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper5').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/tartMeringue.jpg" alt="tartMeringue" class="cakecoffee">
-                            <h1 class="ingredients">A tart Meringue</h1>
-                            <p class="ingredients"> Description: A lemon tart that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-    
-                <div id="itemwrapper6" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper6').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/pieRedFruits.jpg" alt="pieRedFruits" class="cakecoffee">
-                            <h1 class="ingredients">Red Fruits Pie</h1>
-                            <p class="ingredients"> Description: A red fruits pie that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-    
-            </div>
-    
-            <div id="Cakes" class="prodcontent">
-                <img src="images/cakeCoffe.jpg" alt="croissant" class="productPics">
-                <img src="images/carrotCake.jpg" alt="donuts" class="productPics">
-                <img src="images/CaramelCake.jpg" alt="eclair" class="productPics">
-                <br>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper7').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:59px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper8').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:130px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper9').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:125px;">Details</button>
-    
-    
-    
-    
-    
-                <div id="itemwrapper7" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper7').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/cakeCoffe.jpg" alt="CakeCoffee" class="cakecoffee">
-                            <h1 class="ingredients">Coffee Cake</h1>
-                            <p class="ingredients"> Description: A soft Coffe Cake that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-                <div id="itemwrapper8" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper8').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/carrotCake.jpg" alt="donuts" class="cakecoffee">
-                            <h1 class="ingredients">Carrot Cake</h1>
-                            <p class="ingredients"> Description: A carrot cake that is melting and moist
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-    
-                <div id="itemwrapper9" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper9').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/CaramelCake.jpg" alt="CaramelCake" class="cakecoffee">
-                            <h1 class="ingredients">Caramel Cake</h1>
-                            <p class="ingredients"> Description: A caramel cake that has a lot of
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="Macaroons" class="prodcontent">
-                <img src="images/macaron.jpg" alt="croissant" class="productPics">
-                <img src="images/coffeeMacaron.jpg" alt="donuts" class="productPics">
-                <img src="images/Macaron2.jpg" alt="eclair" class="productPics">
-                <br>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper10').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:59px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper11').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:130px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper12').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:125px;">Details</button>
-    
-    
-    
-    
-    
-                <div id="itemwrapper10" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper10').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/macaron.jpg" alt="Macaron" class="cakecoffee">
-                            <h1 class="ingredients">Macaron</h1>
-                            <p class="ingredients"> Description: A macaroon that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-                <div id="itemwrapper11" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper11').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/coffeeMacaron.jpg" alt="macaroncoffe" class="cakecoffee">
-                            <h1 class="ingredients">Donuts</h1>
-                            <p class="ingredients"> Description: A coffe macaron that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-    
-                <div id="itemwrapper12" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper12').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/Macaron2.jpg" alt="macaronredfruits" class="cakecoffee">
-                            <h1 class="ingredients">Donuts</h1>
-                            <p class="ingredients"> Description: A red fruits macaron that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="Salted" class="prodcontent ">
-                <img src="images/quiche.jpg" alt="croissant" class="productPics">
-                <img src="images/pizza.jpg" alt="donuts" class="productPics">
-                <img src="images/quiche1.jpg" alt="eclair" class="productPics">
-                <br>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:59px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper13').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:130px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper14').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:125px;">Details</button>
-    
-    
-    
-    
-    
-                <div id="itemwrapper" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/quiche.jpg" alt="quiche" class="cakecoffee">
-                            <h1 class="ingredients">Quiche</h1>
-                            <p class="ingredients"> Description: A quiche that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-                <div id="itemwrapper13" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper13').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/pizza.jpg" alt="pizza" class="cakecoffee">
-                            <h1 class="ingredients">Pizza</h1>
-                            <p class="ingredients"> Description: A pizza that is juicy with tomatoes and has a crispy crust.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-    
-                <div id="itemwrapper14" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper14').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/quiche1.jpg" alt="quiche" class="cakecoffee">
-                            <h1 class="ingredients">Quiche</h1>
-                            <p class="ingredients"> Description: A vegetarian quiche that gives you an authentic French
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="Cupcakes" class="prodcontent">
-                <img src="images/cupcake.jpg" alt="croissant" class="productPics">
-                <img src="images/cupcake3.jpg" alt="donuts" class="productPics">
-                <img src="images/carrottCupcake.jpg" alt="eclair" class="productPics">
-                <br>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper15').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:59px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper16').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:130px;">Details</button>
-                <button type="button" class="buttonDetails"
-                    onclick="document.getElementById('itemwrapper17').style.display='block'"
-                    style="width:100px;height:60px;  margin-top:15px; margin-left:125px;">Details</button>
-    
-    
-    
-    
-    
-                <div id="itemwrapper15" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper15').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/cupcake.jpg" alt="cupcakes" class="cakecoffee">
-                            <h1 class="ingredients">Cupcakes</h1>
-                            <p class="ingredients"> Description: A moist cupcakes that gives you an authentic
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-                <div id="itemwrapper16" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper16').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/cupcake3.jpg" alt="cupcakes" class="cakecoffee">
-                            <h1 class="ingredients">Cupcakes</h1>
-                            <p class="ingredients"> Description: A soft cupcake that gives you an authentic
-                                savour.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-    
-                <div id="itemwrapper17" class="boxButton">
-                    <form action="#" class="boxContent animate">
-                        <div class="imgContain">
-                            <span onclick="document.getElementById('itemwrapper17').style.display='none'" class="close"
-                                title="CloseBox">&times;</span>
-    
-                            <img src="images/carrottCupcake.jpg" alt="carrottCupcake" class="cakecoffee">
-                            <h1 class="ingredients">Carrot Cupcake</h1>
-                            <p class="ingredients"> Description: A delicious carrot cupcake that is 
-                                savoury.
-                                <br>Layers of deliciousness and with a buttery taste that makes you crave for more.
-                                <br>Ingredients:flour,sugar,salt, yeast, butter, egg,milk <br>
-                                Calories:290</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
+
+
+
             <div class="clearfix"></div>
     
         </div>
