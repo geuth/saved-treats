@@ -224,7 +224,6 @@ footer ul li a {
 }
 #starProducts1{
     margin-left:7em;
-   
   }
 .productBox1{
     margin-bottom:2em;
@@ -239,7 +238,15 @@ footer ul li a {
     margin-bottom: 1em;
     margin-top:1em;
 }
-
+.footer1{
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    margin-top:3em;
+}
+.box9{
+    margin-bottom: 10em;
+}
   .list2 {
     float: left;
     border: 3px solid #F294AD;
