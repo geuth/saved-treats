@@ -1,2 +1,2 @@
 # saved-treats
-Website demo/school project
+Website demo
